@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -8,146 +9,135 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;800&display=swap"
+        rel="stylesheet" />
 
     <!-- Shared styles -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
 
     <!-- Home page styles only -->
-    <link rel="stylesheet" href="index.css" />
-  </head>
+    <link rel="stylesheet" href="index.css">
+</head>
 
-  <body>
+<body id="page-top">
     <!-- Header and navigation -->
     <header class="header">
-      <div class="header-container">
-        <a href="index.html" class="logo"> Travel the Skies </a>
+        <div class="header-container">
+            <a href="index.html" class="logo"> Travel the Skies </a>
 
-        <nav class="navbar" aria-label="Main navigation">
-          <input type="checkbox" id="menu-toggle" />
+            <nav class="navbar" aria-label="Main navigation">
+                <input type="checkbox" id="menu-toggle" />
 
-          <label
-            for="menu-toggle"
-            class="menu-icon"
-            aria-label="Toggle navigation"
-          >
-            &#9776;
-          </label>
+                <label for="menu-toggle" class="menu-icon" aria-label="Toggle navigation">
+                    &#9776;
+                </label>
 
-          <ul class="nav-links">
-            <li><a href="index.html" aria-current="page">Home</a></li>
-            <li><a href="About.html">About</a></li>
-            <li><a href="Services.html">Services</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-      <!-- Hero section -->
-      <section class="hero">
-        <div class="hero-content">
-          <h1>Allow us to plan your next adventure!</h1>
+        <!-- Hero section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Allow us to plan your next adventure!</h1>
 
-          <p>
-            Explore breathtaking destinations with our expertly crafted travel
-            packages.
-          </p>
+                <p>
+                    Explore breathtaking destinations with our expertly crafted travel
+                    packages.
+                </p>
 
-          <a href="Contact.html" class="button">Sign up</a>
-        </div>
-
-        <div class="hero-placeholder">
-          <img
-            src="Images/Landing_page_image1.jpg"
-            alt="A beautiful landscape with mountains and a lake."
-          />
-        </div>
-      </section>
-
-      <a href="#page-top" class="back-to-top" aria-label="Back to top">
-        <span aria-hidden="true">&uarr;</span>
-      </a>
-
-      <!-- Information section -->
-      <section class="info">
-        <h2>Some random information.</h2>
-
-        <div class="info-cards">
-          <article class="info-card">
-            <div class="info-box">
-              <img
-                src="Images/Landing_page_image2.jpg"
-                alt="A beautiful forest landscape."
-              />
+                <a href="Contact.html" class="button">Sign up</a>
             </div>
-            <p>Visit beautiful forests.</p>
-          </article>
 
-          <article class="info-card">
-            <div class="info-box">
-              <img src="Images/Landing_page_image3.jpg" alt="A Waterfall." />
+            <div class="hero-placeholder">
+                <img src="Images/Landing_page_image1.jpg" alt="A beautiful landscape with mountains and a lake." />
             </div>
-            <p>Explore stunning waterfalls.</p>
-          </article>
+        </section>
 
-          <article class="info-card">
-            <div class="info-box">
-              <img src="Images/Landing_page_image4.jpg" alt="A beach view." />
+        <a href="#page-top" class="back-to-top" aria-label="Back to top">
+            <span aria-hidden="true">&uarr;</span>
+        </a>
+
+        <!-- Information section -->
+        <section class="info">
+            <h2>Some random information.</h2>
+
+            <div class="info-cards">
+                <figure class="info-card">
+                    <div class="info-box">
+                        <img src="Images/Landing_page_image2.jpg" alt="A beautiful forest landscape." />
+                    </div>
+                    <figcaption>Discover lush forests.</figcaption>
+                </figure>
+
+                <figure class="info-card">
+                    <div class="info-box">
+                        <img src="Images/Landing_page_image3.jpg" alt="A Waterfall." />
+                    </div>
+                    <figcaption>Explore stunning waterfalls.</figcaption>
+                </figure>
+
+                <figure class="info-card">
+                    <div class="info-box">
+                        <img src="Images/Landing_page_image4.jpg" alt="A beach view." />
+                    </div>
+                    <figcaption>Relax on beautiful beaches.</figcaption>
+                </figure>
+
+                <figure class="info-card">
+                    <div class="info-box">
+                        <img src="Images/Landing_page_image5.jpg" alt="Blue Skies." />
+                    </div>
+                    <figcaption>Experience clear blue skies.</figcaption>
+                </figure>
             </div>
-            <p>Relax on beautiful beaches.</p>
-          </article>
+        </section>
 
-          <article class="info-card">
-            <div class="info-box">
-              <img src="Images/Landing_page_image5.jpg" alt="Blue Skies." />
+        <!-- Quote section -->
+        <section class="quote-section">
+            <blockquote>
+                Nature does not hurry, yet everything is accomplished.
+
+                <cite>- Lao Tzu</cite>
+            </blockquote>
+        </section>
+
+        <!-- Call-to-action section -->
+        <section class="signup-section">
+            <div class="signup-content">
+                <div>
+                    <h2>Call to action! It's time!</h2>
+
+                    <p>
+                        Sign up for our trips by clicking that button right over there!
+                    </p>
+                </div>
+
+                <a href="Contact.html" class="signup-button">Sign up</a>
             </div>
-            <p>Enjoy the beauty of blue skies.</p>
-          </article>
-        </div>
-      </section>
-
-      <!-- Quote section -->
-      <section class="quote-section">
-        <blockquote>
-          Nature does not hurry, yet everything is accomplished.
-
-          <cite>- Lao Tzu</cite>
-        </blockquote>
-      </section>
-
-      <!-- Call-to-action section -->
-      <section class="signup-section">
-        <div class="signup-content">
-          <div>
-            <h2>Call to action! It's time!</h2>
-
-            <p>
-              Sign up for our trips by clicking that button right over there!
-            </p>
-          </div>
-
-          <a href="Contact.html" class="signup-button">Sign up</a>
-        </div>
-      </section>
+        </section>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-      <nav class="footer-nav" aria-label="Footer navigation">
-        <ul>
-          <li><a href="index.html" aria-current="page">Home</a></li>
-          <li><a href="About.html">About</a></li>
-          <li><a href="Services.html">Services</a></li>
-          <li><a href="Contact.html">Contact</a></li>
-        </ul>
-      </nav>
+        <nav class="footer-nav" aria-label="Footer navigation">
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
 
-      <p>Copyright &copy; 2026 Tahlia, Aspa & Betim</p>
+        <p>Copyright &copy; 2026 Tahlia, Aspa & Betim</p>
     </footer>
-  </body>
+</body>
+
 </html>

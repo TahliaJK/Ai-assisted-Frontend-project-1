@@ -112,7 +112,7 @@ select {
 .header {
     background-color: var(--color-dark);
     color: var(--color-light);
-    padding: 0 12%;
+    padding: 0 5%;
 }
 
 .header-container {
