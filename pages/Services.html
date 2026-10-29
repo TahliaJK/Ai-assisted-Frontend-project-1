@@ -3,9 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Services</title>
+    <title>Services | Travel the Skies</title>
+
     <link rel="stylesheet" href="../css/services.css" />
     <link rel="stylesheet" href="../css/style.css" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;800&display=swap"
       rel="stylesheet"
@@ -13,9 +15,11 @@
   </head>
 
   <body id="page-top">
+
+    <!-- SITE HEADER -->
     <header class="header">
       <div class="header-container">
-        <a href="../pages/index.html" class="logo"> Travel the Skies </a>
+        <a href="../pages/index.html" class="logo">Travel the Skies</a>
 
         <nav class="navbar" aria-label="Main navigation">
           <input type="checkbox" id="menu-toggle" />
@@ -29,18 +33,21 @@
           </label>
 
           <ul class="nav-links">
-            <li><a href="../pages/index.html" aria-current="page">Home</a></li>
+            <li><a href="../pages/index.html">Home</a></li>
             <li><a href="../pages/About.html">About</a></li>
-            <li><a href="../pages/Services.html" aria-current="page">Services</a></li>
+            <li>
+              <a href="../pages/Services.html" aria-current="page">Services</a>
+            </li>
             <li><a href="../pages/Contact.html">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
+    <!-- MAIN CONTENT -->
     <main>
-      <!-- Hero Section -->
 
+      <!-- HERO SECTION -->
       <section class="hero">
         <h1>Services</h1>
         <p>
@@ -49,21 +56,29 @@
         </p>
       </section>
 
+      <!-- BACK TO TOP -->
       <a href="#page-top" class="back-to-top" aria-label="Back to top">
         <span aria-hidden="true">&uarr;</span>
       </a>
-      <!-- Services Section -->
 
-      <section class="services">
-        <div class="service_card">
-          <img src="../Images/Services_CityTravel_image.jfif" alt="City Travel" />
+      <!-- SERVICES SECTION -->
+      <section class="services" aria-label="Travel services">
+
+        <!-- CITY TRAVEL -->
+        <article class="service_card">
+          <img
+            src="../Images/Services_CityTravel_image.jfif"
+            alt="City Travel"
+          />
           <h2>City</h2>
           <p>
             Explore vibrant cities, discover iconic landmarks, and experience
             new cultures. Your next urban adventure awaits!
           </p>
-        </div>
-        <div class="service_card">
+        </article>
+
+        <!-- MOUNTAIN TRAVEL -->
+        <article class="service_card">
           <img
             src="../Images/Services_MountainTravel_image.jfif"
             alt="Mountain Travel"
@@ -73,8 +88,10 @@
             Escape into nature, enjoy breathtaking mountain views, and explore
             beautiful hiking trails. Adventure starts here!
           </p>
-        </div>
-        <div class="service_card">
+        </article>
+
+        <!-- OCEAN TRAVEL -->
+        <article class="service_card">
           <img
             src="../Images/Services_OceanTravel_image.jfif"
             alt="Ocean Travel"
@@ -84,8 +101,10 @@
             Relax on stunning beaches, swim in crystal-clear waters, and
             discover tropical destinations. Your perfect getaway awaits!
           </p>
-        </div>
-        <div class="service_card">
+        </article>
+
+        <!-- WINTER TRAVEL -->
+        <article class="service_card">
           <img
             src="../Images/Services_WinterTravel_image.jfif"
             alt="Winter Travel"
@@ -95,39 +114,40 @@
             Experience snowy landscapes, cozy mountain cabins, and exciting
             winter activities. Make unforgettable winter memories!
           </p>
-        </div>
+        </article>
+
       </section>
 
-      <!-- Call to Action Section -->
-
-      <section class="button_section">
+      <!-- CALL TO ACTION SECTION -->
+      <section class="button_section" aria-label="Contact us">
         <p>
           If you're looking for unforgettable experiences and the chance to
           create lasting memories, your next adventure is just one click away.
           Contact us today and let us help you plan your dream journey!
         </p>
-        <button
-          class="button_Contact_Us"
-          onclick="window.location.href = 'Contact.html'"
-        >
+
+        <a href="../pages/Contact.html" class="button_Contact_Us">
           Contact Us
-        </button>
+        </a>
       </section>
+
     </main>
 
-    <!-- Footer Section -->
-
+    <!-- FOOTER -->
     <footer class="footer">
       <nav class="footer-nav" aria-label="Footer navigation">
         <ul>
-          <li><a href="../index.html" aria-current="page">Home</a></li>
-          <li><a href="../About.html">About</a></li>
-          <li><a href="../Services.html">Services</a></li>
-          <li><a href="../Contact.html">Contact</a></li>
+          <li><a href="../pages/index.html">Home</a></li>
+          <li><a href="../pages/About.html">About</a></li>
+          <li>
+            <a href="../pages/Services.html" aria-current="page">Services</a>
+          </li>
+          <li><a href="../pages/Contact.html">Contact</a></li>
         </ul>
       </nav>
 
-      <p>Copyright &copy; 2026 Tahlia, Aspa & Betim</p>
+      <p>Copyright &copy; 2026 Tahlia, Aspa &amp; Betim</p>
     </footer>
+
   </body>
 </html>
